@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(48, 41, 41);
+    --primary-color: rgb(63, 61, 61);
     --secondary-color: rgb(255, 247, 247);
     --tertiary-color: rgb(52, 73, 52);
 }
@@ -10,17 +10,60 @@ body {
 }
 
 header {
-    padding: 25px 35px;
+    padding: 20px;
     background-color: var(--primary-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 35px;
 }
 
 header a { 
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 header nav {
-    margin: 8px 0;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calabri, 'Trebucket MS', sans-serif;
+    font-size: 20px;
 }
 
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--primary-color)
+}
+
+p {
+    font-size: 18px;
+}
+
+.hero {
+    height: 1200px;
+    width: 100%;
+    background-image: url("../images/IMG-1924.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------ */
+
+.intro {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 40px;
+    font-size: 28px;
+}
