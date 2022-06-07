@@ -1,0 +1,26 @@
+:root {
+    --primary-color: rgb(48, 41, 41);
+    --secondary-color: rgb(255, 247, 247);
+    --tertiary-color: rgb(52, 73, 52);
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 25px 35px;
+    background-color: var(--primary-color);
+}
+
+header a { 
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+header nav {
+    margin: 8px 0;
+}
+
