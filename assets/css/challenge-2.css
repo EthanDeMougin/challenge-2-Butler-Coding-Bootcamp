@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: rgb(20, 37, 27);
-    --secondary-color: rgb(255, 247, 247);
-    --tertiary-color: rgb(0, 0, 0);
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(0, 0, 0);
+    --tertiary-color: rgb(126, 109, 164);
 }
 
 html {
@@ -67,6 +67,12 @@ p {
     font-size: 18px;
 }
 
+aside {
+    margin: 10px 25px 10px 0;
+    border-right: 2px solid var(--tertiary-color);
+    padding-right: 10px;
+}
+
 .hero {
     height: 1200px;
     width: 100%;
@@ -77,13 +83,22 @@ p {
 
 /* ------------ */
 
-.about-me {
+.about-me, .contact-me, .run-buddy  {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     padding: 40px;
     font-size: 28px;
     width: 100%;
     display: block;
+}
+
+.about-me aside, .contact-me aside, .run-buddy aside {
+    float:left;
+}
+
+.about-me p {
+    margin: auto;
+    padding: 10px;
 }
 
 .footer {
@@ -105,4 +120,14 @@ p {
     font-size: 28px;
     text-align: center;
     padding-bottom: 35px;
+}
+
+.run-buddy img {
+    margin-left: 350px;
+}
+
+.contact-me p {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: var(--tertiary-color);
 }
