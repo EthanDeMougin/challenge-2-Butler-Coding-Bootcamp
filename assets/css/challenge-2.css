@@ -64,8 +64,9 @@ a {
 }
 
 p {
-    font-size: 26px;
-    text-decoration: underline;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
     text-decoration-color: var(--tertiary-color);
 }
 
@@ -76,9 +77,9 @@ p {
 }
 
 .hero {
-    height: 400px;
+    height: 700px;
     width: 800px;
-    background-image: url("../images/IMG-1924.jpg");
+    background-image: url("../images/self-photo-1.jpeg.png");
     background-size: cover;
     background-position: center;
 }
